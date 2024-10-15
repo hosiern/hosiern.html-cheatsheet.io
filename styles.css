@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+body {
+	background-color: rgb(134, 197, 206);
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+	background-color: rgb(204, 220, 235);
+	margin: 30px auto 100px;
+	width: fit-content;
+	padding: 10px;
+}
+
+.main h2,
+p {
+	text-align: left;
+	margin: 10px 20px 10px;
+}
+
+table {
+	margin: 20px 30px;
+	border: 2px solid white;
+	border-spacing: 0;
+}
+
+th,
+td {
+	background-color: rgb(204, 220, 235);
+	padding: 10px;
+	border: 1px solid white;
+	line-height: 1.4;
+}
+
+.description {
+	text-align: justify;
+}
+
+.tag {
+	font-family: monospace;
+	background-color: rgb(236, 238, 230);
+	font-size: 1.2em;
+}
+
+hr {
+  width: 80%;
+  margin: 70px auto;
+  border: 1px solid white;
+}
+

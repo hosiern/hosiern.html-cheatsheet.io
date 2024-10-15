@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML Reference Sheet</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<!--Header Section-->
+		<header class="header">
+			<h1>HTML Reference Sheet</h1>
+			<h3>By Nate</h3>
+		</header>
+
+		<!--Main Section-->
+		<div class="main">
+			<div class="boilerplate">
+				<!--Boilerplate Information-->
+				<h2>HTML Boilerplate</h2>
+				<p>
+					The HTML Boilerplate contains all the relevant information to inform the browser that you are presenting an
+					HTML document to load. It contains the HTML declaration, the head section containing Meta tags declaring the
+					default display values, the title of the document that will be displayed in the browser tab, and links to
+					stylesheets, fonts and other items needed to complete the document.
+				</p>
+				<table class="table">
+					<!--Table Header-->
+					<thead>
+						<tr>
+							<th>HTML Element</th>
+							<th>Description</th>
+							<th>Important Considerations</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!--Element Item-->
+						<tr>
+							<td><span class="tag">!DOCTYPE html</span></td>
+							<td class="description">
+								The declaration is not an HTML tag. It is an "information" to the browser about what document type to
+								expect.
+							</td>
+							<td>None</td>
+						</tr>
+						<!--Element Item-->
+						<tr>
+							<td><span class="tag">&lt;html&gt;</span></td>
+							<td class="description">
+								Represents the root of an HTML document. It is the container for all other HTML elements with the
+								exception of the !DOCTYPE declaration.
+							</td>
+							<td>None</td>
+						</tr>
+						<!--Element Item-->
+						<tr>
+							<td><span class="tag">&lt;head&gt;</span></td>
+							<td class="description">
+								A container for metadata (data about data) and is placed between the
+								<span class="tag">&lt;html&gt;</span> tag and the <span class="tag">&lt;body&gt;</span> tag.
+							</td>
+							<td>None</td>
+						</tr>
+						<!--Element Item-->
+						<tr>
+							<td><span class="tag">&lt;meta&gt;</span></td>
+							<td class="description">
+								Defines metadata about an HTML document. Metadata is data (information) about data. Typically used to
+								specify character set, page description, keywords, author of the document, and viewport settings.
+							</td>
+							<td>None</td>
+						</tr>
+						<!--Element Item-->
+						<tr>
+							<td><span class="tag">&lt;title&gt;</span></td>
+							<td class="description">
+								Defines the title of the document. The title must be text-only, and it is shown in the browser's title
+								bar or in the page's tab.
+							</td>
+							<td class="feature">Text only</td>
+						</tr>
+						<!--Element Item-->
+						<tr>
+							<td><span class="tag">&lt;link&gt;</span></td>
+							<td class="description">
+								Defines the relationship between the current document and an external resource.
+							</td>
+							<td>None</td>
+						</tr>
+						<!--Element Item-->
+						<tr>
+							<td><span class="tag">&lt;style&gt;</span></td>
+							<td class="description">
+								Used to define style information (CSS) for a document. Not typically used in an HTML document, as CSS is
+								typically applied using a seperate Style Sheet.
+							</td>
+							<td class="feature">Commonly used for HTML emails.</td>
+						</tr>
+						<!--Element Item-->
+						<tr>
+							<td><span class="tag">&lt;base&gt;</span></td>
+							<td class="description">Specifies the base URL and/or target for all relative URLs in a document.</td>
+							<td class="feature">Only one use allowed in an HTML document.</td>
+						</tr>
+					</tbody>
+				</table>
+				<hr />
+			</div>
+
+			<div class="body-elements">
+				<!--Common Elements-->
+				<h2>HTML Body Elements</h2>
+				<p>The elements within the Body tag contain all the content of a web page.</p>
+				<table class="table">
+					<!--Table Header-->
+					<thead>
+						<tr>
+							<th>HTML Element</th>
+							<th>Description</th>
+							<th>Important Considerations</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!--Element Item-->
+						<tr>
+							<td><span class="tag">&lt;body&gt;</span></td>
+							<td class="description">
+								Contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables,
+								lists, etc.
+							</td>
+							<td class="feature">Only one use allowed in an HTML document.</td>
+						</tr>
+						<!--Element Item-->
+						<tr>
+							<td><span class="tag">&lt;h1&gt;</span> through <span class="tag">&lt;h6&gt;</span></td>
+							<td class="description">
+								The heading elements, used as headings for the document, paragraphs, sections, etc.
+								<span class="tag">&lt;h1&gt;</span> is the largest, <span class="tag">&lt;h6&gt;</span> is the smallest.
+							</td>
+							<td>Typically only one <span class="tag">&lt;h1&gt;</span> is used in a document.</td>
+						</tr>
+					</tbody>
+				</table>
+				<hr />
+			</div>
+		</div>
+	</body>
+</html>
